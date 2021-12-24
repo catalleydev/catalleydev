@@ -1,0 +1,114 @@
+/** COMPILED FROM SCSS SOURCE. DO NOT EDIT DIRECTLY */
+
+// 
+// SCSS SOURCE FILE - comment above will be rendered to css file - please
+//	disregard it and only edit this file.
+//
+
+// the vars
+@import "_mm_vars";
+
+///////////////////////////////////
+// body
+///////////////////////////////////
+
+html, body { } 
+
+///////////////////////////////////
+// mobile, tablet test and disable parallax (jquery tests for this)
+///////////////////////////////////
+
+#isSmall { visibility: hidden; float: none; }
+#isMedium { visibility: hidden; float: left; }
+#isLarge { visibility: hidden; float: none; }
+
+///////////////////////////////////
+// top bar
+///////////////////////////////////
+
+.top {
+	.topLogo {
+	    left: auto;
+		transform: translateY(-50%);
+		right: 20px;
+		width: 225px;
+		height: 53px;
+	}
+}
+
+///////////////////////////////////
+// large chapter images
+///////////////////////////////////
+
+.chapterImage {	
+
+	&.c0 {
+		background: transparent url(#{$img_path}/c0_hero_md.jpg) no-repeat top center fixed;
+		background-size: cover;
+	}
+
+}
+
+///////////////////////////////////
+// article content
+///////////////////////////////////
+
+.chapter { 
+	margin: 2em auto;
+	
+	.slideshow {
+		.slideshowCard {
+			.cardCopy {
+				
+				p {
+					font-size: 1.1em;
+					line-height: 1.5em;
+					margin-bottom: 2.0em;	
+				}
+			}
+		}
+	}
+}
+
+section {
+	
+	p {
+		font-size: 1.1em;
+		line-height: 1.5em;
+		margin-bottom: 2.0em;
+	}
+
+}
+
+
+
+///////////////////////////////////
+// featured content
+///////////////////////////////////
+
+
+///////////////////////////////////
+// footer
+///////////////////////////////////
+
+.footer {
+	
+	.alsoLikeLinkWrap {
+		
+		.linkWrapper {
+			padding-bottom: 21%;
+			margin: 0 5px;
+		}
+		
+		.link {			
+			.linkTitleWrapper {
+				padding: 5px 10px;
+				
+				.linkTitle {
+					font-size: 14px;
+					line-height: 18px;
+				}
+			}
+		}
+	}
+}
